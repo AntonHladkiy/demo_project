@@ -3,18 +3,41 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@hookform/resolvers": "^2.9.10",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.6",
+    "@mui/x-data-grid": "^5.17.17",
+    "@polkadot/react-identicon": "^2.9.14",
+    "@tanstack/react-query": "^4.3.9",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.34",
-    "@types/react": "^18.2.8",
-    "@types/react-dom": "^18.2.4",
+    "@types/node": "^16.11.59",
+    "@types/react": "^18.0.20",
+    "@types/react-dom": "^18.0.6",
+    "@wcj/generate-password": "^1.0.3",
+    "axios": "^0.27.2",
+    "ethers": "^5.7.2",
+    "generate-password": "^1.7.0",
+    "identicon.js": "^2.3.3",
+    "mobx": "^6.6.2",
+    "mobx-react": "^7.5.3",
+    "moment": "^2.29.4",
     "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.41.0",
+    "react-router-dom": "^6.5.0",
     "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "react-toastify": "^9.1.1",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.3",
+    "web-vitals": "^2.1.4",
+    "zod": "^3.20.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +62,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.1.3"
   }
 }
